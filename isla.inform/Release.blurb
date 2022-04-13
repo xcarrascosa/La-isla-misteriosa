@@ -1,0 +1,54 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "E:\GameDev\I7\La isla\isla.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "E:\GameDev\I7\La isla\isla.inform"
+release to "E:\GameDev\I7\La isla\isla.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "La isla misteriosa.zblorb"
+storyfile "E:\GameDev\I7\La isla\isla.inform\Build\output.z8" include
+ifiction "E:\GameDev\I7\La isla\isla.inform\Metadata.iFiction" include
+cover "E:\GameDev\I7\La isla\isla.materials\Cover.jpg"
+picture 1 "E:\GameDev\I7\La isla\isla.materials\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "6B411FA1-A8BD-4615-B038-5E8ABFFF9EE5"
+placeholder [RELEASE] = "3"
+placeholder [YEAR] = "2011"
+placeholder [TITLE] = "La isla misteriosa"
+placeholder [AUTHOR] = "Xavier Carrascosa"
+placeholder [BLURB] = "El gran conquistador Hernán Cortés se encuentra a merced del peligro en una tierra exótica buscando un tesoro perdido... ¿logrará encontrarlo? La isla misteriosa esconde una aventura que no es lo que parece..."
+
+! Other material to release
+
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "La isla misteriosa.zblorb.js"
+template path "E:\GameDev\I7\La isla\isla.materials\Templates"
+template path "C:\Users\xavie\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Parchment" "z"
+base64 "E:\GameDev\I7\La isla\isla.inform\Build\output.z8" to "E:\GameDev\I7\La isla\isla.materials\Release\interpreter\La isla misteriosa.zblorb.js"
+
+! Website instructions
+
+template path "E:\GameDev\I7\La isla\isla.materials\Templates"
+template path "C:\Users\xavie\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line23"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||

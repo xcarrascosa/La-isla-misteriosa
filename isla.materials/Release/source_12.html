@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Xavier Carrascosa - La isla misteriosa — 14 of 21</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="author" content="Xavier Carrascosa" />
+  <meta name="description" content="A page for the game La isla misteriosa by Xavier Carrascosa." />
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ </head>
+
+<body>
+
+<div class = "container">
+
+<div class ="sourcecoverimage">
+	<span><a href="Cover.jpg"><img src="Small Cover.jpg" border="1"></a></span>
+</div>
+
+<div class ="sourceintroduction">
+	<h1>
+		<span>La isla misteriosa</span> <span class="pagination">— 14 of 21</span>
+	</h1>
+	<h2>
+		<span>Xavier Carrascosa</span>
+	</h2>
+	<div class ="sourcebibliography">
+		<span>Release 3</span>
+	</div>
+</div>
+
+<div class = "links">
+<ul>
+<li><a href="index.html">Home page</a></li><li><a href="source.html">Beginning</a></li><li><a href="source_11.html">Previous</a></li><li><a href="source_13.html">Next</a></li>
+</ul>
+</div>
+
+<div class = "source">
+<p class="indent0"><span class="heading">Section 1.1 - Despertar y dormir al jugador</span></p><p class="indent0">Before waking up:</p><p class="indent1">if the player is in aula or the player is in galeon:</p><p class="indent2">say &quot;<span class="quote">Estoy despierto... ¿o estoy soñando?</span>&quot;;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the player is conquistador and the parque is unvisited: </p><p class="indent2">say &quot;<span class="quote">Oyes una voz a lo lejos que te dice: 'Sebastián! ¡Despierta, Sebastián! Otra vez te has quedado dormido en clase... [</span><span class="substitution">bold type</span><span class="quote">]¡Sebastián!'[</span><span class="substitution">roman type</span><span class="quote">][</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">say &quot;<span class="quote">Aturdido, te despiertas de un sobresalto. Te habías quedado completamente dormido en clase de historia, justo cuando el profesor estaba explicando todo el rollo de la colonización... ¿a quién le importará, si ya hace tanto de eso?[</span><span class="substitution">paragraph break</span><span class="quote">]'Sebastián, ¿me puedes decir de qué estaba hablando?' te pregunta airado el profesor Antonio...</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">move Sebastian to aula;</p><p class="indent2">now the player is Sebastian;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the player is conquistador and the parque is visited: </p><p class="indent2">say &quot;<span class="quote">Lentamente te desperezas...[</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">move Sebastian to parque;</p><p class="indent2">now the player is Sebastian;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the player is Sebastian and the naufrago is recuperado: </p><p class="indent2">say &quot;<span class="quote">Lentamente te desperezas...[</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">now the player is in parque;</p><p class="indent2">rule succeeds;</p><p class="indent1">otherwise:</p><p class="indent2"> say &quot;<span class="quote">Creo que ya estoy despierto...</span>&quot;;</p><p class="indent2">rule succeeds.</p><p class="indent2"></p><p class="indent0">Before sleeping:</p><p class="indent1">if the player is in aula:</p><p class="indent2">say &quot;<span class="quote">No puedo quedarme dormido aquí...</span>&quot;;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the profesor is in galeon:</p><p class="indent2">say &quot;<span class="quote">Ya no tengo sueño, no quiero dormir más.</span>&quot;;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the player is Sebastian and the naufrago is recuperado: </p><p class="indent2">say &quot;<span class="quote">Vuelves a soñar, otra vez... pero en el sueño, ahora eres tú el protagonista...[</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">remove tablones from play;</p><p class="indent2">remove naufrago from play;</p><p class="indent2">now the description of conquistador is &quot;<span class="quote">Tu antiguo yo en el sueño, el conquistador Hernán Cortés, parece una estatua de sal, como un maniquí con pose mayestática, sus ojos sin pupilas se dirigen al mar, pero no tienen vida.</span>&quot;;</p><p class="indent2">move the cofre to Isla;</p><p class="indent2">move the mapa to cofre;</p><p class="indent2">move the llave oro to Isla2;</p><p class="indent2">move barco to Isla4;</p><p class="indent2">move the player to Isla4;</p><p class="indent2">rule succeeds;</p><p class="indent1">if the player is Sebastian and the naufrago is moribundo: </p><p class="indent2">say &quot;<span class="quote">Lentamente tus ojos se cierran de nuevo y te sumerges en tu sueño...[</span><span class="substitution">paragraph break</span><span class="quote">]</span>&quot;;</p><p class="indent2">wait for any key;</p><p class="indent2">now the player is conquistador;</p><p class="indent2">rule succeeds;</p><p class="indent1">otherwise:</p><p class="indent2"> say &quot;<span class="quote">Creo que ya estoy durmiendo...</span>&quot;;</p><p class="indent2">rule succeeds.</p><p class="indent2"></p><p class="indent0">Understand &quot;<span class="quote">duermete</span>&quot;, &quot;<span class="quote">dormir</span>&quot; as sleeping.</p><p class="indent0">Understand &quot;<span class="quote">agarra [</span><span class="substitution">something</span><span class="quote">]</span>&quot; as taking.</p>
+</div>
+
+<div class ="notes">
+
+</div>
+
+</div>
+
+</body>
+
+</html>

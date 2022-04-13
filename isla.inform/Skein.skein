@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-124"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">isla</command>
+    <result xml:space="preserve">"Hay que estar borracho siempre. &#x000A;He ah&#x00ED; la &#x00FA;nica cuesti&#x00F3;n. &#x000A;Para no ser los m&#x00E1;rtires esclavos del tiempo, &#x000A;que destruye tus espaldas y te doblega hacia la tierra, &#x000A;hay que embriagarse sin cesar. &#x000A;&#x00BF;Pero de que? &#x000A;De vino, de poes&#x00ED;a, o de virtud, como quieras." &#x000A;&#x000A;Charles Baudelaire</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Teclea "AYUDA" durante el juego para recibir instrucciones.&#x000A;&#x000A;Bienvenido a...&#x000A;&#x000A;La isla misteriosa&#x000A;"Una aventura llena de dudas, misterios y pocas respuestas." por Xavier Carrascosa&#x000A;Release 1 / Serial number 111220 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD&#x000A;&#x000A;Bosque&#x000A;Te encuentras en un bosque de enormes &#x00E1;rboles. Un sendero lleno de maleza se pierde por el sur; al norte divisas una gran monta&#x00F1;a.&#x000A;&#x000A;Puedes ver una serpiente aproxim&#x00E1;ndose hacia t&#x00ED; desde el sur, aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+      <child nodeId="node-12"/>
+      <child nodeId="node-41"/>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">irdonde parque</command>
+    <result xml:space="preserve">En el parque&#x000A;Te encuentras en un peque&#x00F1;o parque cercano al colegio, en la soledad del momento percibes la fresca brisa matinal, el canto de algunos pajarillos y el ir y venir de hombres y mujeres muy atareados, yendo a sus trabajos, a la compra o simplemente simulando estar muy ocupados.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">dormir</command>
+    <result xml:space="preserve">Creo que ya estoy durmiendo...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">despertar</command>
+    <result xml:space="preserve">Lentamente te desperezas...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">En el parque&#x000A;Te encuentras en un peque&#x00F1;o parque cercano al colegio, en la soledad del momento percibes la fresca brisa matinal, el canto de algunos pajarillos y el ir y venir de hombres y mujeres muy atareados, yendo a sus trabajos, a la compra o simplemente simulando estar muy ocupados.&#x000A;&#x000A;Puedes ver a Hern&#x00E1;n Cort&#x00E9;s aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">entra</command>
+    <result xml:space="preserve">No te apetece volver a clase. Aqu&#x00ED; se est&#x00E1; bien. Solo te apetece dormir&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">sal</command>
+    <result xml:space="preserve">No est&#x00E1;s en ning&#x00FA;n sitio del que debas salir.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">dormir</command>
+    <result xml:space="preserve">Creo que ya estoy durmiendo...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">despierta</command>
+    <result xml:space="preserve">Oyes una voz a lo lejos que te dice: "Sebasti&#x00E1;n! &#x00A1;Despierta, Sebasti&#x00E1;n! Otra vez te has quedado dormido en clase... &#x00A1;Sebasti&#x00E1;n!"&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Aturdido, te despiertas de un sobresalto. Te hab&#x00ED;as quedado completamente dormido en clase de historia, justo cuando el profesor estaba explicando todo el rollo de la colonizaci&#x00F3;n... &#x00BF;a qui&#x00E9;n le importar&#x00E1;, si ya hace tanto de eso?&#x000A;&#x000A;"Sebasti&#x00E1;n, &#x00BF;me puedes decir de qu&#x00E9; estaba hablando?" te pregunta airado el profesor Antonio...&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">despierta</command>
+    <result xml:space="preserve">Estoy despierto... &#x00BF;o estoy so&#x00F1;ando?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">dormir</command>
+    <result xml:space="preserve">No puedo quedarme dormido aqu&#x00ED;...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">sal</command>
+    <result xml:space="preserve">Sales corriendo de clase, escuchando las hirientes risas de tus compa&#x00F1;eros y la amenaza de suspenso del profesor. Te da igual, nunca te ha gustado la historia... y no soportas que se r&#x00ED;an de t&#x00ED;.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Tal vez nunca tuviste a ning&#x00FA;n buen profesor que te explicara que la Historia, con may&#x00FA;scula, era algo m&#x00E1;s que una sucesi&#x00F3;n de calamidades. Nunca tuviste aun Duby, a un Dum&#x00E9;zil o a un Mircea El&#x00ED;ade que te explicara epistemolog&#x00ED;a, discurso m&#x00ED;tico e integrado o la trifuncionalidad indoeuropea.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Por eso sue&#x00F1;as. En tu imaginaci&#x00F3;n la historia es una aventura, un desaf&#x00ED;o, una emoci&#x00F3;n. En tus sue&#x00F1;os los nombres de reyes, dioses y conquistadores se mezclan y producen fantasiosos relatos donde la b&#x00FA;squeda de tesoros, el rescate a princesas y la caza de dragones son los ingredientes principales.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Esa es tu visi&#x00F3;n de la historia... o lo que es lo mismo, por aqu&#x00E9;l entonces no sab&#x00ED;as a&#x00FA;n que quer&#x00ED;as ser escritor, pero las historias brotaban de tu mente... solo que no ten&#x00ED;as consciencia de ello, no te pon&#x00ED;as a escribirlo. Tampoco nadie te dijo que pod&#x00ED;as escribirlo, nadie te ayud&#x00F3; a pensar.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Te daban los datos, las definiciones, las consecuencias... pero no los argumentos, las causas, las dudas. Nadie te dio clases para hacerte preguntas, convivir con la duda y la incertidumbre... y as&#x00ED; est&#x00E1;s ahora.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">En este momento de tu historia, tienes tantas dudas como temor a saber las respuestas. Por eso, solo te apetece dormir... porque tal vez en el sue&#x00F1;o se disuelvan las dudas y desaparezca el miedo.&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&#x000A;En el parque&#x000A;Te encuentras en un peque&#x00F1;o parque cercano al colegio, en la soledad del momento percibes la fresca brisa matinal, el canto de algunos pajarillos y el ir y venir de hombres y mujeres muy atareados, yendo a sus trabajos, a la compra o simplemente simulando estar muy ocupados.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">despierta</command>
+    <result xml:space="preserve">Creo que ya estoy despierto...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">duerme</command>
+    <result xml:space="preserve">Lentamente tus ojos se cierran de nuevo y te sumerges en tu sue&#x00F1;o...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">Bosque&#x000A;Te encuentras en un bosque de enormes &#x00E1;rboles. Un sendero lleno de maleza se pierde por el sur; al norte divisas una gran monta&#x00F1;a.&#x000A;&#x000A;Puedes ver una serpiente siseando amenazadoramente, impidi&#x00E9;ndote el paso hacia el sur, aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">despierta</command>
+    <result xml:space="preserve">Lentamente te desperezas...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">En el parque&#x000A;Te encuentras en un peque&#x00F1;o parque cercano al colegio, en la soledad del momento percibes la fresca brisa matinal, el canto de algunos pajarillos y el ir y venir de hombres y mujeres muy atareados, yendo a sus trabajos, a la compra o simplemente simulando estar muy ocupados.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">sal</command>
+    <result xml:space="preserve">No est&#x00E1;s en ning&#x00FA;n sitio del que debas salir.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">o</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">entra</command>
+    <result xml:space="preserve">&#x000A;Aula de historia&#x000A;Est&#x00E1;s en clase de historia. Todos tus compa&#x00F1;eros te miran divertidos al ver que te has vuelto a dormir en plena clase.&#x000A;&#x000A;El profesor Antonio te mira con severidad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">vete</command>
+    <result xml:space="preserve">Tienes que especificar en qu&#x00E9; direcci&#x00F3;n ir.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&#x00BF;Perd&#x00F3;n?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">No puedes ir por ah&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Monta&#x00F1;a&#x000A;Te encuentras en una alta monta&#x00F1;a desde la que se divisa un bosque y una playa, all&#x00E1; a lo lejos. Observas multitud de piedras por aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">coge piedra</command>
+    <result xml:space="preserve">Coges una piedra.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Bosque&#x000A;Te encuentras en un bosque de enormes &#x00E1;rboles. Un sendero lleno de maleza se pierde por el sur; al norte divisas una gran monta&#x00F1;a.&#x000A;&#x000A;Puedes ver una serpiente siseando amenazadoramente, impidi&#x00E9;ndote el paso hacia el sur, aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">lanza piedra a serpiente</command>
+    <result xml:space="preserve">Lanzas la piedra a la serpiente, que retrocede asustada, perdi&#x00E9;ndose por entre el follaje del bosque...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Playa&#x000A;Est&#x00E1;s en una larga playa desde la que se divisa una isla a lo lejos. Puedes ver muchas palmeras por aqu&#x00ED;.&#x000A;&#x000A;Puedes ver un cofre que llega mecido por las olas,  aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">coge cofre</command>
+    <result xml:space="preserve">Cogido.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">Llevas:&#x000A;  un cofre (cerrado con llave)&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">abre cofre</command>
+    <result xml:space="preserve">Est&#x00E1; cerrado con llave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">nadar</command>
+    <result xml:space="preserve">Decidido y sin temor te adentras en el mar, nadando hacia la lejana isla...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">De repente, en mitad de la traves&#x00ED;a, te das cuenta... &#x00A1;el mar est&#x00E1; infestado de tiburones! Nadas todo lo r&#x00E1;pido que puedes hasta llegar exhausto a la costa... &#x00A1;esta vez has tenido suerte!&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Costa de la isla&#x000A;Has llegado a una ex&#x00F3;tica isla en mitad de la inmensidad del mar. Te sorprende la singular belleza de estas costas, que se extienden de este a oesta hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver una llave de oro y a un n&#x00E1;ufrago moribundo tumbado sobre la arena, por  aqu&#x00ED;.&#x000A;&#x000A;-&#x00A1;Tengo sed! Ahh...- le oyes decir.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">mata serpiente</command>
+    <result xml:space="preserve">La violencia no es la soluci&#x00F3;n.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">lanza piedra a serpiente</command>
+    <result xml:space="preserve">Lanzas la piedra a la serpiente, que retrocede asustada, perdi&#x00E9;ndose por entre el follaje del bosque...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">ex follaje</command>
+    <result xml:space="preserve">No veo eso que dices.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Playa&#x000A;Est&#x00E1;s en una larga playa desde la que se divisa una isla a lo lejos. Puedes ver muchas palmeras por aqu&#x00ED;.&#x000A;&#x000A;Puedes ver un cofre que llega mecido por las olas,  aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">ex cofre</command>
+    <result xml:space="preserve">Un peque&#x00F1;o cofre misterioso, bellamente adornado, aunque algo deteriorado por las inclemencias del mar.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">abrelo</command>
+    <result xml:space="preserve">Est&#x00E1; cerrado con llave.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">cogelo</command>
+    <result xml:space="preserve">Cogido.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">nadar</command>
+    <result xml:space="preserve">Decidido y sin temor te adentras en el mar, nadando hacia la lejana isla...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">De repente, en mitad de la traves&#x00ED;a, te das cuenta... &#x00A1;el mar est&#x00E1; infestado de tiburones! Nadas todo lo r&#x00E1;pido que puedes hasta llegar exhausto a la costa... &#x00A1;esta vez has tenido suerte!&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Costa de la isla&#x000A;Has llegado a una ex&#x00F3;tica isla en mitad de la inmensidad del mar. Te sorprende la singular belleza de estas costas, que se extienden de este a oesta hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver a un n&#x00E1;ufrago moribundo tumbado sobre la arena, por  aqu&#x00ED;.&#x000A;&#x000A;-&#x00A1;Tengo sed! Ahh...- le oyes decir.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;Sigues explorando la isla. Te sorprende la singular belleza de estas costas, pero m&#x00E1;s adentro, al norte, te llama la atenci&#x00F3;n un camino que conduce a un espeso bosque.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;Contin&#x00FA;as explorando la isla. Te sorprende la singular belleza de estas costas, que se extienden de este a oesta hasta donde alcanza la vista.&#x000A;&#x000A;Unos tablones de madera procedentes de un naufragio se encuentran tirados por la arena.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">empuja tablones</command>
+    <result xml:space="preserve">Los tablones pesan demasiado, pero al moverlos has dejado al descubierto una cantimplora.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">coge cantimplora</command>
+    <result xml:space="preserve">Cogida.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">exla</command>
+    <result xml:space="preserve">La cantimplora est&#x00E1; algo ro&#x00F1;osa, pero parece en buen estado, aunque no contiene nada.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;Contin&#x00FA;as explorando la isla. Te sorprende la singular belleza de estas costas, que se extienden de este a oesta hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver una llave de oro, medio escondida entre las rocas, por aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">ex llave</command>
+    <result xml:space="preserve">&#x00A1;Brillante!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">coge llave</command>
+    <result xml:space="preserve">Cogida.&#x000A;&#x000A;El n&#x00E1;ufrago parece estar sediento, apenas puede apoyarse en la arena.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;La l&#x00ED;nea de la costa se extiende de este a oeste en esta paradis&#x00ED;aca isla, hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver a un n&#x00E1;ufrago mirando con sorpresa tu misterioso cofre, por  aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">dale cofre</command>
+    <result xml:space="preserve">(a un n&#x00E1;ufrago)&#x000A;un n&#x00E1;ufrago no parece interesado.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;La isla se extiende en una larga playa de fina arena hasta donde alcanza la vista. M&#x00E1;s adentro, al norte, puedes ver un camino que conduce a un espeso bosque.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">&#x000A;Bosque de la isla&#x000A;Has llegado a un ex&#x00F3;tico bosque. Las plantas, los &#x00E1;rboles y las flores de vivos colores te hacen sentir como si estuvieras en un para&#x00ED;so.&#x000A;&#x000A;Un peque&#x00F1;o riachuelo cruza serpenteando el bosque.&#x000A;&#x000A;A&#x00FA;n puedes escuchar los lamentos del n&#x00E1;ufrago...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">coge agua</command>
+    <result xml:space="preserve">(el riachuelo)&#x000A;Llenas la cantimplora con el agua del riachuelo.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;La isla se extiende en una larga playa de fina arena hasta donde alcanza la vista.&#x000A;&#x000A;Unos tablones de madera procedentes de un naufragio se encuentran tirados por la arena.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;La vegetaci&#x00F3;n es m&#x00E1;s densa en esta parte de la isla y te obliga a meterte en el agua hasta casi la cintura. La l&#x00ED;nea de la costa contin&#x00FA;a de este a oeste.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;La l&#x00ED;nea de la costa se extiende de este a oeste en esta paradis&#x00ED;aca isla, hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver a un n&#x00E1;ufrago mirando con sorpresa tu misterioso cofre, por  aqu&#x00ED;.&#x000A;&#x000A;A&#x00FA;n puedes escuchar los lamentos del n&#x00E1;ufrago...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">dale agua</command>
+    <result xml:space="preserve">(la cantimplora a un n&#x00E1;ufrago)&#x000A;El hombre coge nerviosamente la cantimplora con las dos manos y bebe de ella hasta la &#x00FA;ltima gota...&#x000A;&#x000A;El n&#x00E1;ufrago empieza a tener mejor aspecto, te mira agradecido&#x000A;-&#x00A1;Gracias, amigo! -te dice el hombre, levant&#x00E1;ndose con dificultad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">di hola</command>
+    <result xml:space="preserve">(a un n&#x00E1;ufrago)&#x000A;Oyes una voz a lo lejos que te dice: "Sebasti&#x00E1;n! &#x00A1;Despierta, Sebasti&#x00E1;n! Otra vez te has quedado dormido en clase... &#x00A1;Sebasti&#x00E1;n!"&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Aturdido, te despiertas de un sobresalto. Te hab&#x00ED;as quedado completamente dormido en clase de historia, justo cuando el profesor estaba explicando todo el rollo de la colonizaci&#x00F3;n... &#x00BF;a qui&#x00E9;n le importar&#x00E1;, si ya hace tanto de eso?&#x000A;&#x000A;"Sebasti&#x00E1;n, &#x00BF;me puedes decir de qu&#x00E9; estaba hablando?" te pregunta airado el profesor Antonio...&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">Aula de historia&#x000A;Est&#x00E1;s en clase de historia. Todos tus compa&#x00F1;eros te miran divertidos al ver que te has vuelto a dormir en plena clase.&#x000A;&#x000A;El profesor Antonio te mira con severidad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">di hola</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;El profesor dice: "&#x00A1;Te he hecho una pregunta! &#x00BF;Qu&#x00E9; es lo que estaba explicando?".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">di historia</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;El profesor dice: "&#x00A1;Muy bien! Por lo menos sabes en qu&#x00E9; aula est&#x00E1;s, &#x00BF;puedes decirnos de qu&#x00E9; historia hablamos?".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">di colonizacion</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;El profesor dice: "Exacto, Sebasti&#x00E1;n... veo que por lo menos sab&#x00ED;a a qu&#x00E9; ven&#x00ED;as a clase. &#x00BF;Qui&#x00E9;n fue Col&#x00F3;n?".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">di colonizador</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;No hay respuesta.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">di descubridor</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;El profesor dice: "Col&#x00F3;n fue un descubridor, Sebasti&#x00E1;n... &#x00BF;y qui&#x00E9;n fue Hern&#x00E1;n Cort&#x00E9;s?".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">di hernan</command>
+    <result xml:space="preserve">(a el profesor)&#x000A;El profesor dice: "Hern&#x00E1;n Cort&#x00E9;s fue el que conquist&#x00F3; el imperio azteca, lo que hoy es M&#x00E9;xico.".&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">m</command>
+    <result xml:space="preserve">Aula de historia&#x000A;Est&#x00E1;s en clase de historia. Todos tus compa&#x00F1;eros te miran divertidos al ver que te has vuelto a dormir en plena clase.&#x000A;&#x000A;El profesor Antonio te mira con severidad.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">ex clase</command>
+    <result xml:space="preserve">El aula, demasiado grande para tan pocos alumnos, te parece a&#x00FA;n m&#x00E1;s grande tras haberte quedado dormido y ser ahora el hazmerre&#x00ED;r de tus compa&#x00F1;eros. El profesor, con su actitud severa y socarrona tampoco te ayuda a sentirte mejor. &#x00A1;Se estaba tan bien durmiendo! Tal vez puedas continuar tu sue&#x00F1;o saliendo de aqu&#x00ED;&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">ex alumnos</command>
+    <result xml:space="preserve">Tus compa&#x00F1;eros de clase se est&#x00E1;n riendo de t&#x00ED;. Te entran ganas de salir de clase...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">sal</command>
+    <result xml:space="preserve">Sales corriendo de clase, escuchando las hirientes risas de tus compa&#x00F1;eros y la amenaza de suspenso del profesor. Te da igual, nunca te ha gustado la historia... y no soportas que se r&#x00ED;an de t&#x00ED;.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Tal vez nunca tuviste a ning&#x00FA;n buen profesor que te explicara que la Historia, con may&#x00FA;scula, era algo m&#x00E1;s que una sucesi&#x00F3;n de calamidades. Nunca tuviste aun Duby, a un Dum&#x00E9;zil o a un Mircea El&#x00ED;ade que te explicara epistemolog&#x00ED;a, discurso m&#x00ED;tico e integrado o la trifuncionalidad indoeuropea.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Por eso sue&#x00F1;as. En tu imaginaci&#x00F3;n la historia es una aventura, un desaf&#x00ED;o, una emoci&#x00F3;n. En tus sue&#x00F1;os los nombres de reyes, dioses y conquistadores se mezclan y producen fantasiosos relatos donde la b&#x00FA;squeda de tesoros, el rescate a princesas y la caza de dragones son los ingredientes principales.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Esa es tu visi&#x00F3;n de la historia... o lo que es lo mismo, por aqu&#x00E9;l entonces no sab&#x00ED;as a&#x00FA;n que quer&#x00ED;as ser escritor, pero las historias brotaban de tu mente... solo que no ten&#x00ED;as consciencia de ello, no te pon&#x00ED;as a escribirlo. Tampoco nadie te dijo que pod&#x00ED;as escribirlo, nadie te ayud&#x00F3; a pensar.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Te daban los datos, las definiciones, las consecuencias... pero no los argumentos, las causas, las dudas. Nadie te dio clases para hacerte preguntas, convivir con la duda y la incertidumbre... y as&#x00ED; est&#x00E1;s ahora.&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">En este momento de tu historia, tienes tantas dudas como temor a saber las respuestas. Por eso, solo te apetece dormir... porque tal vez en el sue&#x00F1;o se disuelvan las dudas y desaparezca el miedo.&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">&#x000A;En el parque&#x000A;Te encuentras en un peque&#x00F1;o parque cercano al colegio, en la soledad del momento percibes la fresca brisa matinal, el canto de algunos pajarillos y el ir y venir de hombres y mujeres muy atareados, yendo a sus trabajos, a la compra o simplemente simulando estar muy ocupados.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">ex colegio</command>
+    <result xml:space="preserve">A unos pocos metros tienes la entrada al colegio, pero no quieres entrar mientras dure la clase de historia.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">entra</command>
+    <result xml:space="preserve">No te apetece volver a clase. Aqu&#x00ED; se est&#x00E1; bien. Solo te apetece dormir&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">dormir</command>
+    <result xml:space="preserve">Vuelves a so&#x00F1;ar, otra vez... pero en el sue&#x00F1;o, ahora eres t&#x00FA; el protagonista...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Costa de la isla&#x000A;La isla se extiende en una larga playa de fina arena hasta donde alcanza la vista.&#x000A;&#x000A;Puedes ver un barco espa&#x00F1;ol navegando por la costa, cerca de aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">ex isla</command>
+    <result xml:space="preserve">No veo eso que dices.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">ex playa</command>
+    <result xml:space="preserve">Estas aguas son tan bellas como peligrosas, piensas mientras observas la l&#x00ED;nea de la costa, all&#x00E1; a lo lejos.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">ex barco</command>
+    <result xml:space="preserve">Un majestuoso gale&#x00F3;n espa&#x00F1;ol se encuentra cerca de la costa. Tal vez pudieras llegar a &#x00E9;l a nado, antes de que se aleje demasiado...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">nadar</command>
+    <result xml:space="preserve">Decidido y sin temor te adentras en el mar, nadando hacia la costa...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Pero de repente observas una amenazadora aleta de tibur&#x00F3;n que se aproxima hacia t&#x00ED;... &#x00A1;intentas huir con todas tus fuerzas! Pero...&#x000A;&#x000A;&#x000A;&#x000A;    *** Has muerto ***&#x000A;&#x000A;&#x000A;En este juego, tu puntuaci&#x00F3;n ha sido 0 de un total de 0, en 45 turnos.&#x000A;&#x000A;&#x000A;&gt; &#x00BF;Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del &#x00FA;ltimo comando?&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;[Retrocediendo al turno anterior.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">nada hacia el barco</command>
+    <result xml:space="preserve">No puedo nadar en el barco, mejor ser&#x00E1; nadar en el mar...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">nada</command>
+    <result xml:space="preserve">Decidido y sin temor te adentras en el mar, nadando hacia la costa...&#x000A;&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Pero de repente observas una amenazadora aleta de tibur&#x00F3;n que se aproxima hacia t&#x00ED;... &#x00A1;intentas huir con todas tus fuerzas! Pero...&#x000A;&#x000A;&#x000A;&#x000A;    *** Has muerto ***&#x000A;&#x000A;&#x000A;En este juego, tu puntuaci&#x00F3;n ha sido 0 de un total de 0, en 46 turnos.&#x000A;&#x000A;&#x000A;&gt; &#x00BF;Quieres REINICIAR, RECUPERAR un juego guardado, TERMINAR o hacer UNDO del &#x00FA;ltimo comando?&#x000A;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">&#x000A;Costa de la isla&#x000A;[Retrocediendo al turno anterior.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">irdonde galeon</command>
+    <result xml:space="preserve">El barco Guadalupe&#x000A;Te encuentras en la cubierta de un gale&#x00F3;n espa&#x00F1;ol, que viento en popa a toda vela, surca el mar que no vuela, a manos de un marinero brib&#x00F3;n. No eres el mejor de los grumetes, pues nunca antes hab&#x00ED;as montado en un barco, y no sabes ni d&#x00F3;nde est&#x00E1; la proa o la popa, ni lo que es babor o estribor. Tal vez el marinero te ayude...&#x000A;&#x000A;Un alegre marinero maneja el tim&#x00F3;n del barco.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">La isla misteriosa, por Xavier Carrascosa (2011/12). &#x000A;Remake abril 2022 / Versi&#x00F3;n 3.0 &#x000A;&#x000A;Teclea "AYUDA" durante el juego para recibir instrucciones.&#x000A;&#x000A;La isla misteriosa&#x000A;"Una aventura llena de dudas, misterios y pocas respuestas." por Xavier Carrascosa&#x000A;Release 3 / Serial number 220413 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bosque&#x000A;Lejano entre las brumas apareces como reflejo de un arquetipo m&#x00ED;tico, en la inmensidad verde de un bosque desconocido. Ahora eres t&#x00FA; el que decide el rumbo que tomar&#x00E1;n tus pasos, las consecuencias de tus actos y las palabras que de tu boca han de surgir, tanto para recitar hermosos versos, como para juzgar con tu voz a tus semejantes. El sendero que atravesar&#x00E1;s te espera, m&#x00E1;s all&#x00E1; hay un mundo nuevo, pero ten cuidado de sus peligros&#x2026; &#x000A;&#x000A;Puedes ver un serpiente aproxim&#x00E1;ndose hacia ti desde el sur, aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-115"/>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">La isla misteriosa&#x000A;"Una aventura llena de dudas, misterios y pocas respuestas." por Xavier Carrascosa&#x000A;Release 3 / Serial number 220413 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;Bosque&#x000A;Lejano entre las brumas apareces como reflejo de un arquetipo m&#x00ED;tico, en la inmensidad verde de un bosque desconocido. Ahora eres t&#x00FA; el que decide el rumbo que tomar&#x00E1;n tus pasos, las consecuencias de tus actos y las palabras que de tu boca han de surgir, tanto para recitar hermosos versos, como para juzgar con tu voz a tus semejantes. El sendero que atravesar&#x00E1;s te espera, m&#x00E1;s all&#x00E1; hay un mundo nuevo, pero ten cuidado de sus peligros&#x2026; &#x000A;&#x000A;Puedes ver un serpiente aproxim&#x00E1;ndose hacia ti desde el sur, aqu&#x00ED;.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">ayuda</command>
+    <result xml:space="preserve">&gt; Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introducci&#x00F3;n a La isla misteriosa&#x000A; &gt; Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A;   Introducci&#x00F3;n a La isla misteriosa&#x000A; &gt; Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">[up]</command>
+    <result xml:space="preserve">&gt; Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A; &gt; Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">[enter]</command>
+    <result xml:space="preserve">El gran conquistador Hern&#x00E1;n Cort&#x00E9;s se encuentra a merced del peligro en una tierra ex&#x00F3;tica buscando un tesoro perdido... &#x00BF;lograr&#x00E1; encontrarlo? La isla misteriosa esconde una aventura que no es lo que parece...&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Presiona ESPACIO para continuar.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">&gt; Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A; &gt; Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introducci&#x00F3;n a La isla misteriosa&#x000A; &gt; Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A;   Introducci&#x00F3;n a La isla misteriosa&#x000A; &gt; Instrucciones para Jugar&#x000A;   Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">[down]</command>
+    <result xml:space="preserve">Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A; &gt; Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A;   Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A; &gt; Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Si tienes dificultades con La isla misteriosa, contacta conmigo a trav&#x00E9;s de mi e-mail: xavier.carrascosa@gmail.com o entra en los foros del portal CAAD: www.caad.es. Tambi&#x00E9;n puedes visitar mi blog: xcarrascosa.blogspot.com&#x000A;&#x000A;&#x000A;&#x000A;Presiona ESPACIO para continuar.</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve"> </command>
+    <result xml:space="preserve">Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A; &gt; Contactar con el autor&#x000A;   Pistas&#x000A;&#x000A;   Introducci&#x00F3;n a La isla misteriosa&#x000A;   Instrucciones para Jugar&#x000A; &gt; Contactar con el autor&#x000A;   Pistas</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
